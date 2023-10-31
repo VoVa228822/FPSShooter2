@@ -1,0 +1,506 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1698760648106080, "dur":1919, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698760648108003, "dur":77, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1698760648108100, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1698760648108122, "dur":168, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1698760648108309, "dur":662, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698760648108971, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698760651198291, "dur":55, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698760651198346, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698760651198360, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698760651198362, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698760651198373, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698760651198385, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698760651198394, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698760651198397, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698760651198403, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698760651198412, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698760651198436, "dur":2098, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698760648109045, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648109045, "dur":5050, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648114105, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698760648114107, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648114176, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698760648114182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648115094, "dur":3578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698760648118677, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1698760648118711, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648118786, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1698760648120415, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1698760648120446, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648120888, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1698760648122981, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1698760648123010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648124070, "dur":3441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1698760648127535, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760648127559, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648128097, "dur":89626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760648217758, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760648217804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648217846, "dur":101602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760648319512, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760648319574, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648319580, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760648321101, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760648321133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648321138, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760648322557, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760648322584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648322589, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760648324854, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760648324888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648324916, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760648326956, "dur":30210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1698760648357168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648357173, "dur":5435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1698760648362638, "dur":12326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1698760648374968, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648374981, "dur":5163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1698760648380169, "dur":8491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1698760648388664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648388670, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1698760648389833, "dur":88601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760648478439, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648478454, "dur":319937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760648798496, "dur":196417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760648994917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760648994924, "dur":94638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760649089633, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760649089692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760649089703, "dur":515220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760649605277, "dur":5401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760649610682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760649610703, "dur":1301985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760650912804, "dur":2683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760650915509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760650915516, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760650917723, "dur":152431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760651070158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760651070165, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760651072283, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760651072307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760651072312, "dur":4929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760651077272, "dur":119596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760651196874, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698760651196884, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698760651198255, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1698760651198257, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648109045, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648109046, "dur":5054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648114105, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1698760648114209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648116590, "dur":3127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1698760648119765, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1698760648119808, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648120967, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1698760648123343, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1698760648123405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648123680, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1698760648125641, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1698760648125668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648125675, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1698760648127184, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1698760648127217, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648127222, "dur":4015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1698760648131273, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648131325, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648131347, "dur":187069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648318450, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648318485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648318501, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648320054, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648320090, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648320096, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648321628, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648321664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648321670, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648323210, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648323238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648323243, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648325083, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648325111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648325117, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648326172, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648326199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648326204, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648328149, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648328177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648328184, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648329587, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648329614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648329620, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648331026, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648331052, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648331058, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648332213, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648332240, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648332246, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648333154, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648333179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648333185, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648334070, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648334098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648334104, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648335308, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648335335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648335420, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648336400, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648336430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648336434, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648337107, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648337131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648337136, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648338054, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648338084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648338088, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648339290, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648339322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648339326, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648340339, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648340364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648340368, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648341570, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648341599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648341609, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648343393, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648343422, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648343427, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648344628, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648344654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648344660, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648346539, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648346566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648346572, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648347845, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648347877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648347883, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648350035, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648350066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648350071, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648351659, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648351695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648351708, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648352683, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648352723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648352729, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648354377, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648354417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648354422, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648355188, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648355213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648355219, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648356922, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648356946, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648356957, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648357644, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648357675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648357679, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648358637, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648358662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648358666, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648360066, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648360098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648360103, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648361467, "dur":8516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1698760648369989, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648370009, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1698760648371868, "dur":96773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648468654, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760648468674, "dur":326060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760648794837, "dur":224210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760649019051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760649019058, "dur":586983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760649606069, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760649606097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760649606102, "dur":243457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760649849608, "dur":174202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760650023815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760650023822, "dur":891583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760650915428, "dur":13584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1698760650929017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760650929025, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1698760650930392, "dur":123333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760651053729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760651053736, "dur":8679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760651062441, "dur":6769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1698760651069215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760651069223, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1698760651070555, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1698760651070583, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760651070605, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1698760651071973, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760651072000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760651072006, "dur":3584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698760651075617, "dur":8291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1698760651083913, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760651083923, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1698760651086378, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698760651086410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760651086424, "dur":16496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698760651102947, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1698760651102972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760651102977, "dur":5326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1698760651108330, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698760651108355, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760651108362, "dur":25805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698760651134195, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1698760651134222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698760651134227, "dur":8104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1698760651142367, "dur":55912, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648109050, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648109051, "dur":5100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648114151, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1698760648114212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648116575, "dur":3048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1698760648119648, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1698760648119675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648119681, "dur":2523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1698760648122235, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1698760648122298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648122305, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1698760648123959, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1698760648123985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648124036, "dur":3661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1698760648127721, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648127752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648127756, "dur":11263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648139047, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter.exe" }}
+,{ "pid":12345, "tid":3, "ts":1698760648139077, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648139097, "dur":4957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter.exe" }}
+,{ "pid":12345, "tid":3, "ts":1698760648144081, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1698760648144112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648162732, "dur":67832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1698760648230595, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648230635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648230649, "dur":90102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648320782, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648320821, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648320827, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648322330, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648322358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648322363, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648324069, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648324100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648324106, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648325957, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648325990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648325996, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648327218, "dur":131454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648458677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648458684, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648460537, "dur":72239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648532780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648532788, "dur":281200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648814059, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648814139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648814153, "dur":18821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648833057, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648833096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648833103, "dur":7845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648840980, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648841038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648841045, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648843183, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648843396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648843404, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648844795, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760648844828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760648844835, "dur":237317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760649082224, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760649082294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760649082308, "dur":4865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760649087223, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760649087285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760649087295, "dur":518326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760649605717, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760649605762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760649605776, "dur":795097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760650400909, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760650400937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760650400944, "dur":512162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760650913131, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760650913158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760650913164, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760650915101, "dur":141150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760651056260, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760651056276, "dur":7850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760651064150, "dur":64537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760651128691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760651128705, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698760651130118, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698760651130143, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760651130160, "dur":8787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698760651138979, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1698760651139010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698760651139015, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1698760651140826, "dur":57459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648109058, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648109059, "dur":5063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648114123, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1698760648114193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648116671, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1698760648119410, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1698760648119441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648119447, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1698760648121441, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1698760648121470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648121476, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1698760648122971, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1698760648122999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648123005, "dur":2068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1698760648125103, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1698760648125149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648125158, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1698760648126313, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1698760648126342, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648126347, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1698760648127358, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648127395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648128036, "dur":5817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648133882, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1698760648133923, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648133928, "dur":47315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1698760648181272, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648181305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648181436, "dur":36352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648217814, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648217841, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648217868, "dur":100575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648318476, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648318521, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648318526, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648320333, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648320371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648320377, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648322193, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648322240, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648322261, "dur":2280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648324570, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648324599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648324605, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648326049, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648326084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648326089, "dur":6497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648332686, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648332815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648332822, "dur":3454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648336301, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648336327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648336333, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648336975, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648337000, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648337005, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648338008, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648338034, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648338044, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648339290, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648339318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648339324, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648340325, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648340354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648340359, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648341576, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648341604, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648341609, "dur":1721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648343357, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648343386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648343394, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648344715, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648344743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648344748, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648346666, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648346692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648346697, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648347926, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648347951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648347956, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648350300, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648350329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648350334, "dur":1636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648351994, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648352020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648352025, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648354364, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648354416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648354422, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648355321, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648355347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648355352, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648356552, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648356636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648356642, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648357474, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648357500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648357505, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648358467, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648358494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648358499, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648359239, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648359265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648359270, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648360205, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648360231, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648360235, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648361699, "dur":68897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648430601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648430610, "dur":13020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648443656, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648443690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648443699, "dur":8533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760648452259, "dur":9368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1698760648461672, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648461701, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1698760648465042, "dur":10337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1698760648475383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648475391, "dur":321297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1698760648796798, "dur":56812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.Postprocessing.Runtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1698760648853615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760648853623, "dur":751139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Unity.Postprocessing.Runtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1698760649604790, "dur":1677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760649606470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760649606477, "dur":243678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760649850221, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760649850272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760649850282, "dur":551372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760650401736, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760650401782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760650401788, "dur":512911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760650915028, "dur":7774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1698760650922806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760650922814, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1698760650923592, "dur":11984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1698760650935581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760650935588, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1698760650936673, "dur":5604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1698760650942280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760650942288, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1698760650943455, "dur":119531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760651062989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760651062996, "dur":7537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760651070559, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760651070603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760651070608, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760651072096, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760651072127, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760651072136, "dur":6799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698760651078960, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1698760651078985, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760651079012, "dur":18724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1698760651097769, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1698760651097797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760651097802, "dur":8405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1698760651106234, "dur":726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1698760651106963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760651106968, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1698760651108480, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1698760651108504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760651108507, "dur":25528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1698760651134063, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1698760651134090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760651134096, "dur":6496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1698760651140619, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Voffka/Desktop/Project3/FPShooter_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1698760651140709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698760651140714, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Voffka/Desktop/Project3/FPShooter_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1698760651142414, "dur":55853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698760651202089, "dur":1735, "ph":"X", "name": "ProfilerWriteOutput" }
+,
