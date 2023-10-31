@@ -9,7 +9,7 @@ public class RoomManage : MonoBehaviourPunCallbacks
 
     public GameObject Player;
 
-    public Transform SpawnPoint;
+    public Transform[] SpawnPoint = new Transform[5];
 
     public GameObject RoomCamera;
 
@@ -67,7 +67,8 @@ public class RoomManage : MonoBehaviourPunCallbacks
     }
     public void RespawnPlayer()
     {
-        GameObject _Player = PhotonNetwork.Instantiate(Player.name, SpawnPoint.position, Quaternion.identity);
+        int random = Random.Range(0, SpawnPoint.Length);
+        GameObject _Player = PhotonNetwork.Instantiate(Player.name, SpawnPoint[random].position, Quaternion.identity);
         _Player.GetComponent<PlayerSetup>().IsLocalPlayer();
         _Player.GetComponent<PlayerHealth>().IsLocalPlayer = true;
 

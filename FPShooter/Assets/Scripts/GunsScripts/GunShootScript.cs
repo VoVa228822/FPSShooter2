@@ -36,8 +36,8 @@ public class GunShootScript : MonoBehaviour
     [SerializeField] AnimationClip ReloadClip;
 
     [Header("Recoile Settings")]
-    [Range(0f, 1f)]
-    [SerializeField] float RecoverPercent = 0.7f;
+    [Range(0f, 10f)]
+    [SerializeField] float RecoverPercent = 1f;
 
     [SerializeField] float RecoileUp = 1f;
     [SerializeField] float RecoileBack = 0f;
@@ -60,7 +60,7 @@ public class GunShootScript : MonoBehaviour
 
         OriginalPosition = transform.localPosition;
 
-        RecoilLenght = 0F;
+        RecoilLenght = 0f;
         RecoverLenght = 1/FireRate * RecoverPercent;
     }
     private void Update()
