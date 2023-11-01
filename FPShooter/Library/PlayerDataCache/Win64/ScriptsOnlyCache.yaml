@@ -6,11 +6,13 @@ ScriptsOnlyBuild:
     - FaceNickNameToPlayers
     - GunShootScript
     - LadderMove
+    - LeaderBoard
     - PlayerHealth
     - PlayerMove
     - PlayerSetup
     - RoomManage
     - SwayGun
+    - WeuponSwap
     PhotonUnityNetworking.Demos.dll:
     - Photon.Pun.Demo.Asteroids.Asteroid
     - Photon.Pun.Demo.Asteroids.Bullet
@@ -21,8 +23,6 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
-    PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -239,6 +239,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8292}
     - Class: 114
       Script: {instanceID: 8592}
+    - Class: 114
+      Script: {instanceID: 40390}
+    - Class: 114
+      Script: {instanceID: 63758}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -868,7 +872,7 @@ ScriptsOnlyBuild:
     className: BoolInputField
   - hash:
       serializedVersion: 2
-      Hash: d724042c3cd5d6c169fa25b78471430c
+      Hash: 95706f7787be5c5bd3729ba48ce2807a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RoomManage
@@ -1276,7 +1280,7 @@ ScriptsOnlyBuild:
     className: SlotRacerSplashScreen
   - hash:
       serializedVersion: 2
-      Hash: d84c93d6c99ee4c7898fe88f6c7e0a5a
+      Hash: 6d5acbd9b17fcccb71e90b7d7278ae5b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GunShootScript
@@ -2342,6 +2346,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3e0abc9949b375ee8ccd66b23ef540da
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WeuponSwap
+  - hash:
+      serializedVersion: 2
+      Hash: 5ea52550c063ed8866c94ab50ec49b1f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LeaderBoard
   platform: 19
   scenePathNames:
   - Assets/Scenes/Test.unity

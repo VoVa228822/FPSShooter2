@@ -1,4 +1,5 @@
 using Photon.Pun;
+using Photon.Pun.UtilityScripts;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -42,7 +43,11 @@ public class GunShootScript : MonoBehaviour
     [SerializeField] float RecoileUp = 1f;
     [SerializeField] float RecoileBack = 0f;
 
-    Vector3 OriginalPosition;
+    [Header("Weapon Swap Reference")]
+    public GameObject WeaponSwap;
+    public WeuponSwap Script;
+
+    [SerializeField] Vector3 OriginalPosition;
     Vector3 RecoileVelocity = Vector3.zero;
 
     float RecoilLenght;
@@ -57,14 +62,17 @@ public class GunShootScript : MonoBehaviour
     {
         MagText.text = Mag.ToString();
         AmmoText.text = Ammo + "/" + AmmoMag;
-
-        OriginalPosition = transform.localPosition;
-
         RecoilLenght = 0f;
         RecoverLenght = 1/FireRate * RecoverPercent;
     }
     private void Update()
     {
+        transform.localRotation = Quaternion.Euler(0, -90, 0);
+        if (Script.SwapGuns)
+        {
+            Animation.Stop();
+            transform.localPosition = OriginalPosition;
+        }
         if(NextFire > 0)
         {
             NextFire -= Time.deltaTime;
@@ -75,9 +83,6 @@ public class GunShootScript : MonoBehaviour
             NextFire = 1 / FireRate;
 
             Ammo--;
-
-            MagText.text = Mag.ToString();
-            AmmoText.text = Ammo + "/" + AmmoMag;
 
             Fire();
         }
@@ -93,6 +98,8 @@ public class GunShootScript : MonoBehaviour
         {
             Recover();
         }
+        MagText.text = Mag.ToString();
+        AmmoText.text = Ammo + "/" + AmmoMag;
     }
     private void ReloadAmmo()
     {
@@ -121,6 +128,13 @@ public class GunShootScript : MonoBehaviour
         {
             if(hit.transform.gameObject.GetComponent<PlayerHealth>())
             {
+                //PhotonNetwork.LocalPlayer.AddScore(Damage);
+
+                if (Damage >= hit.transform.gameObject.GetComponent<PlayerHealth>().Health)
+                {
+                    PhotonNetwork.LocalPlayer.AddScore(1);
+                }
+
                 hit.transform.gameObject.GetComponent<PhotonView>().RPC("TakeDamage", RpcTarget.All, Damage);
             }
         }

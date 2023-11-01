@@ -116,6 +116,7 @@
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
 -r:"Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
+-r:"C:/GitHubProjects/FPSShooter2/FPShooter/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"C:/Program Files/Unity 2021.3.28f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"C:/Program Files/Unity 2021.3.28f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"C:/Program Files/Unity 2021.3.28f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
@@ -305,7 +306,6 @@
 -r:"C:/Program Files/Unity 2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll"
 -r:"C:/Program Files/Unity 2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll"
 -r:"C:/Program Files/Unity 2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
--r:"C:/Users/Voffka/Desktop/unity/FPShooter/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aPDevDbg.dag/PhotonRealtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aPDevDbg.dag/UnityEngine.UI.ref.dll"
 "Assets/Photon/PhotonUnityNetworking/Code/CustomTypes.cs"
