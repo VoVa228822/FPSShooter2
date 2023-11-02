@@ -18,6 +18,8 @@ public class LeaderBoard : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI[] NameTexts;
 
+    [SerializeField] TextMeshProUGUI[] KDTexts;
+
     private void Start()
     {
         InvokeRepeating(nameof(Refresh), 1, RefreshRate);
@@ -42,6 +44,15 @@ public class LeaderBoard : MonoBehaviour
 
             NameTexts[i].text = player.NickName;
             ScoreTexts[i].text = player.GetScore().ToString();
+
+            if (player.CustomProperties["Kills"] != null)
+            {
+                KDTexts[i].text = player.CustomProperties["Kills"] + "/" + player.CustomProperties["Death"];
+            }
+            else
+            {
+                KDTexts[i].text = "0/0";
+            } 
 
             i++;
         }

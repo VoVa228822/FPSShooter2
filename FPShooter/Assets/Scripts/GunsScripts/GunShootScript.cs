@@ -128,11 +128,14 @@ public class GunShootScript : MonoBehaviour
         {
             if(hit.transform.gameObject.GetComponent<PlayerHealth>())
             {
-                //PhotonNetwork.LocalPlayer.AddScore(Damage);
+                PhotonNetwork.LocalPlayer.AddScore(Damage);
 
                 if (Damage >= hit.transform.gameObject.GetComponent<PlayerHealth>().Health)
                 {
-                    PhotonNetwork.LocalPlayer.AddScore(1);
+                    RoomManage.Instance.Kills++;
+                    RoomManage.Instance.SetHashes();
+
+                    //PhotonNetwork.LocalPlayer.AddScore(1);
                 }
 
                 hit.transform.gameObject.GetComponent<PhotonView>().RPC("TakeDamage", RpcTarget.All, Damage);
