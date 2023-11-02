@@ -18,8 +18,14 @@ public class PlayerHealth : MonoBehaviour
 
         if (Health <= 0)
         {
-            if(IsLocalPlayer)
+            if (IsLocalPlayer)
+            {
                 RoomManage.Instance.RespawnPlayer();
+
+                RoomManage.Instance.Death++;
+                RoomManage.Instance.SetHashes();
+            }
+
 
             Destroy(gameObject);
         }
